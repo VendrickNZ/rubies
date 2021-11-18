@@ -1,0 +1,16 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:beach": "2021-11-18 03:48:33 +1300",
+      "minecraft:savanna": "2021-11-18 03:48:06 +1300"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_poppy": "2021-11-18 03:49:44 +1300"
+    },
+    "done": true
+  },
+  "DataVersion": 2730
+}

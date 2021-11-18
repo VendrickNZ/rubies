@@ -1,0 +1,61 @@
+{
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_obsidian": "2021-11-18 03:58:25 +1300"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2021-11-18 03:59:43 +1300"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2021-11-18 04:01:33 +1300"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2021-11-18 03:58:25 +1300"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2021-11-18 03:59:43 +1300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2021-11-18 03:58:25 +1300"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:soul_sand_valley": "2021-11-18 03:59:43 +1300"
+    },
+    "done": false
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:desert": "2021-11-18 04:01:45 +1300",
+      "minecraft:beach": "2021-11-18 03:58:27 +1300",
+      "minecraft:river": "2021-11-18 03:58:51 +1300",
+      "minecraft:savanna": "2021-11-18 03:58:09 +1300",
+      "minecraft:plains": "2021-11-18 04:01:20 +1300"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_poppy": "2021-11-18 03:58:09 +1300"
+    },
+    "done": true
+  },
+  "DataVersion": 2730
+}

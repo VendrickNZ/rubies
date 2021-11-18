@@ -1,0 +1,6 @@
+Create Ruby Blocks, Ruby Ore, and Ruby.
+Then I make Ruby Blocks generate naturally in the world, then when you break them with a pickaxe, you get Ruby Ore.
+When you get Ruby Ore you can put it into a furnace to make a Ruby.
+You can use Rubies to make Ruby Armor/Weapons
+
+Rubies are going to require a diamond pickaxe to break, going to spawn exactly like diamonds, but have better stats.
