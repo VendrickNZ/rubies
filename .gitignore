@@ -4,7 +4,6 @@
 build/
 out/
 classes/
-run/
 
 # eclipse
 
@@ -32,3 +31,4 @@ bin/
 # fabric
 
 run/
+run\
