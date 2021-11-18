@@ -1,8 +1,7 @@
-package com.github.vendricknz.itemmod.registry;
+package com.github.vendricknz.rubymod.registry;
 
-import com.github.vendricknz.itemmod.ItemMod;
+import com.github.vendricknz.rubymod.RubyMod;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.fabricmc.fabric.api.tool.attribute.v1.FabricToolTags;
 import net.minecraft.block.Block;
 import net.minecraft.block.Material;
 import net.minecraft.sound.BlockSoundGroup;
@@ -18,6 +17,6 @@ public class ModBlocks {
     );
 
     public static void registerBlocks() {
-        Registry.register(Registry.BLOCK, new Identifier(ItemMod.MOD_ID, "ruby_block"), RUBY_BLOCK);
+        Registry.register(Registry.BLOCK, new Identifier(RubyMod.MOD_ID, "ruby_block"), RUBY_BLOCK);
     }
 }

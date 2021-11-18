@@ -1,6 +1,6 @@
 {
-  "item.itemmod.ruby": "Ruby",
-  "block.itemmod.ruby_block": "Ruby Block",
-  "itemGroup.itemmod.general": "Mod Items",
-  "itemGroup.itemmod.other": "Other Items"
+  "item.rubymod.ruby": "Ruby",
+  "block.rubymod.ruby_block": "Ruby Block",
+  "itemGroup.rubymod.general": "Mod Items",
+  "itemGroup.rubymod.other": "Other Items"
 }
