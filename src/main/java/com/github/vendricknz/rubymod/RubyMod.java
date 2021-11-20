@@ -16,16 +16,6 @@ public class RubyMod implements ModInitializer {
     public static final ItemGroup ITEM_GROUP = FabricItemGroupBuilder.build(
             new Identifier(MOD_ID, "general"), () -> new ItemStack(ModItems.RUBY));
 
-    public static final ItemGroup OTHER_GROUP = FabricItemGroupBuilder.create(
-            new Identifier(MOD_ID, "other")).icon(() -> new ItemStack(Blocks.ENCHANTING_TABLE))
-            .appendItems(stacks -> {
-                stacks.add(new ItemStack(ModBlocks.RUBY_BLOCK));
-                stacks.add(new ItemStack(Items.APPLE));
-                stacks.add(new ItemStack(ModItems.RUBY));
-                stacks.add(new ItemStack(Blocks.OBSIDIAN));
-            })
-            .build();
-
     @Override
     public void onInitialize()  {
         ModItems.registerItems();
