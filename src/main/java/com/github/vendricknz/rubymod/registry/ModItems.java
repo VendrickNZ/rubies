@@ -9,9 +9,10 @@ import net.minecraft.util.registry.Registry;
 public class ModItems {
     //Items
     public static final Item RUBY = new Item(new Item.Settings().group(RubyMod.ITEM_GROUP));
-    public static final Item RUBY_ORE = new Item(new Item.Settings().group(RubyMod.ITEM_GROUP));
     //Block Items
     public static final BlockItem RUBY_BLOCK = new BlockItem(ModBlocks.RUBY_BLOCK, new Item.Settings().group(RubyMod.ITEM_GROUP));
+    public static final BlockItem RUBY_ORE = new BlockItem(ModBlocks.RUBY_ORE, new Item.Settings().group(RubyMod.ITEM_GROUP));
+
 
 
 
