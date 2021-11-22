@@ -11,7 +11,7 @@ import net.minecraft.util.registry.Registry;
 
 public class ModBlocks {
 
-    public static final Block RUBY_BLOCK = new Block(FabricBlockSettings.of(Material.METAL)
+    public static final Block BLOCK_OF_RUBY = new Block(FabricBlockSettings.of(Material.METAL)
             .breakByTool(FabricToolTags.PICKAXES, 3)
             .requiresTool()
             .strength(5.0f, 15.0f)
@@ -26,7 +26,7 @@ public class ModBlocks {
     );
 
     public static void registerBlocks() {
-        Registry.register(Registry.BLOCK, new Identifier(RubyMod.MOD_ID, "ruby_block"), RUBY_BLOCK);
+        Registry.register(Registry.BLOCK, new Identifier(RubyMod.MOD_ID, "block_of_ruby"), BLOCK_OF_RUBY);
         Registry.register(Registry.BLOCK, new Identifier(RubyMod.MOD_ID, "ruby_ore"), RUBY_ORE);
     }
 }

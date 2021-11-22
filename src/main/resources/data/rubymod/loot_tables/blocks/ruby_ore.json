@@ -9,7 +9,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "rubymod:ruby_block",
+              "name": "rubymod:ruby_ore",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",
@@ -40,10 +40,7 @@
                 },
                 {
                   "function": "minecraft:set_count",
-                  "count": {
-                    "min": 1,
-                    "max": 4
-                  }
+                  "count": 1
                 }
               ]
             }
