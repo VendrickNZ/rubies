@@ -28,7 +28,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "rubymod:ruby",
+              "name": "rubymod:raw_ruby",
               "functions": [
                 {
                   "function": "minecraft:explosion_decay"
@@ -40,7 +40,10 @@
                 },
                 {
                   "function": "minecraft:set_count",
-                  "count": 1
+                  "count": {
+                    "min": 1,
+                    "max": 4
+                  }
                 }
               ]
             }
