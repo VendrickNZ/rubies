@@ -11,14 +11,22 @@ import net.minecraft.util.registry.Registry;
 
 public class ModBlocks {
 
-    public static final Block RUBY_BLOCK = new Block(FabricBlockSettings.of(Material.METAL)
-            .breakByTool(FabricToolTags.PICKAXES, 1)
+    public static final Block BLOCK_OF_RUBY = new Block(FabricBlockSettings.of(Material.METAL)
+            .breakByTool(FabricToolTags.PICKAXES, 3)
             .requiresTool()
-            .strength(5.0f, 30.0f)
+            .strength(5.0f, 15.0f)
+            .sounds(BlockSoundGroup.METAL)
+    );
+
+    public static final Block RUBY_ORE = new Block(FabricBlockSettings.of(Material.METAL)
+            .breakByTool(FabricToolTags.PICKAXES, 3)
+            .requiresTool()
+            .strength(5.0f, 5.0f)
             .sounds(BlockSoundGroup.METAL)
     );
 
     public static void registerBlocks() {
-        Registry.register(Registry.BLOCK, new Identifier(RubyMod.MOD_ID, "ruby_block"), RUBY_BLOCK);
+        Registry.register(Registry.BLOCK, new Identifier(RubyMod.MOD_ID, "block_of_ruby"), BLOCK_OF_RUBY);
+        Registry.register(Registry.BLOCK, new Identifier(RubyMod.MOD_ID, "ruby_ore"), RUBY_ORE);
     }
 }
