@@ -1,6 +1,7 @@
 {
   "item.rubymod.ruby": "Ruby",
   "item.rubymod.raw_ruby": "Raw Ruby",
+  "item.rubymod.ruby_nugget": "Ruby Nugget",
   "block.rubymod.block_of_ruby": "Block of Ruby",
   "block.rubymod.ruby_ore": "Ruby Ore",
   "itemGroup.rubymod.general": "Mod Items"

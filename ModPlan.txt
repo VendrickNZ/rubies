@@ -4,3 +4,8 @@ When you get Raw Ruby you can put it into a furnace to make a Ruby.
 You can use Rubies to make Ruby Armor/Weapons
 
 Rubies are going to require a diamond pickaxe to break, going to spawn exactly like diamonds, but have better stats.
+
+Goals:
+Make ruby nugget
+Raw ruby in a furnace makes a ruby
+9 ruby nuggets makes a ruby
