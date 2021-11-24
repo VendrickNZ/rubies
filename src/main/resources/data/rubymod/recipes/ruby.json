@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "rubymod:ruby_nugget"
+    }
+  },
+  "result": {
+    "item": "rubymod:ruby",
+    "count": 1
+  }
+}
+
