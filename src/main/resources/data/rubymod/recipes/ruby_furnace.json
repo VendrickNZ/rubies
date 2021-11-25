@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "rubymod:raw_ruby"
+  },
+  "result": "rubymod:ruby",
+  "experience": 0.15,
+  "cookingtime": 200
+}
